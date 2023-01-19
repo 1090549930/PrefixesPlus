@@ -1,6 +1,12 @@
 displayName = Prefixes+
 author = Kiritan
 version = 0.1
+homepage = https://github.com/1090549930/PrefixesPlus
 hideCode = false
 hideResources = false
 includeSource = true
+includePDB = true
+dllReferences = 
+modReferences =
+buildIgnore = *.csproj, *.sln, .vs\*, .obj\*, .bin\*, .git\*
+side = Both
