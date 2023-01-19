@@ -10,4 +10,14 @@
   <ItemGroup>
     <PackageReference Include="tModLoader.CodeAssist" Version="0.1.5" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Localization\" />
+    <None Remove="Common\" />
+    <None Remove="Content\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Localization\" />
+    <Folder Include="Common\" />
+    <Folder Include="Content\" />
+  </ItemGroup>
 </Project>
